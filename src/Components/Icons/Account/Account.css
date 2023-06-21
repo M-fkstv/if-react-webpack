@@ -1,0 +1,18 @@
+:root {
+  --animation-color: #f5bd41;
+}
+
+.header__images--account {
+  height: 40px;
+  width: 40px;
+  cursor: pointer;
+  fill: var(--general-white);
+  position: relative;
+}
+
+.header__images--account--login {
+  height: 40px;
+  width: 40px;
+  cursor: pointer;
+  fill: var(--animation-color);
+}

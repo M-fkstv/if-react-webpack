@@ -1,0 +1,8 @@
+.header__wrapper {
+  margin: 0 auto;
+  padding-top: 50px;
+  background: url('../../Components/Icons/castelmezzano-1979546\ 1.svg') no-repeat, fixed;
+  background-size: cover;
+  height: 900px;
+  min-height: 100vh;
+}

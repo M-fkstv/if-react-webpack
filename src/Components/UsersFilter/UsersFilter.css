@@ -1,0 +1,27 @@
+/*<<<<<<<<<<<<<<<<<<<<   MODAL WINDOW TO FORM PEOPLES INPUT   >>>>>>>>>>>>>>>>>>>>>>>>>>*/
+:root {
+  --general-blue: #3077c6;
+}
+
+.persons_modal {
+  display: none;
+  z-index: 2;
+}
+
+.active {
+  display: block;
+}
+
+.btn {
+  height: 30px;
+  width: 30px;
+  color: var(--general-blue);
+  border: 1px solid var(--general-blue);
+  background-color: #ffffff;
+  font-size: 20px;
+}
+.btn--disabled {
+  color: rgb(171, 137, 137);
+  border: 1px solid #808080ff;
+  opacity: 0.5;
+}

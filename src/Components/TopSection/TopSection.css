@@ -1,0 +1,30 @@
+:root {
+  --general-white: white;
+}
+
+.main__wrapper {
+  background: url('../Icons/castelmezzano-1979546 1.svg') no-repeat, fixed;
+  background-size: cover;
+  height: 900px;
+  min-height: 100vh;
+}
+
+.main {
+  margin: 0 auto;
+  padding-top: 50px;
+  max-width: 1232px;
+}
+
+.title-text {
+  font-weight: 500;
+  font-size: 50px;
+  color: var(--general-white);
+  margin-top: 200px;
+  margin-bottom: 145px;
+}
+.apps {
+  display: flex;
+  width: 270px;
+  justify-content: space-between;
+  margin: 120px auto;
+}
