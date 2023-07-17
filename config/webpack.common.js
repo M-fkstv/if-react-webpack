@@ -4,6 +4,7 @@ const HTMLWebpackPlugin = require('html-webpack-plugin');
 module.exports = {
   entry: './src/index.js',
   output: {
+    publicPath: '/',
     path: path.resolve(__dirname, '../dist'),
     filename: 'js/app-[contenthash].js',
     assetModuleFilename: 'assets/[contenthash][ext][query]',

@@ -30,7 +30,7 @@ export const SelectWrapper = ({ children }) => {
 
   return new Array(children).fill(children).map((item, index) => {
     return (
-      <select className={classes.childrenAge} id={index} key={index} onChange={setAge}>
+      <select className={classes.childrenAge} id={index} value={0} key={index} onChange={setAge}>
         {new Array(18).fill(0).map((item, index) => {
           return (
             <option key={index} value={index}>
